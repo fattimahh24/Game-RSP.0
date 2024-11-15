@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>ROCK PAPER SCISSORS GAME</h1>
+
+<div class="choices"> <!--Choices div started-->
+
+<div class="choice" id="rock">
+<img src="rock-game.jpg" onclick="playGame('rock')">
+</div> <!--Choice Div-->
+
+
+<div class="choice" id="paper">
+<img src="paper-game.jpg" onclick="playGame('paper')">
+</div> <!--Choice Div-->
+
+
+<div class="choice" id="scissors">
+<img src="scissors-game.jpg" onclick="playGame('scissors')">
+</div> <!--Choice Div-->
+
+</div> <!--Choices div ended-->
+
+<div class="score-board">
+<div class="score"> <!--score for user-->
+<p id="userChoice">0</p>
+<p>You chose:</p>
+</div>
+
+<div class="score"> <!--score for computer-->
+<p id="computerChoice">0</p>
+<p>Comp chose:</p>
+</div>
+</div> <!--Score Board div ended-->
+
+
+<div class="msg-container">
+<p id="gameResult">Play your Move</p>
+</div> <!--msg-container div ended-->
+
+<br>
+<br>
+<footer>
+  <P>Created by; <br>
+     Farah Karamat (CSS-HTML) <br>
+    Hareem Zehra (JS) <br>
+    Fatima Munawar
+  </P>
+</footer>
+
+
+
+<script src="script.js"></script>   
+
+</body>
+</html>
